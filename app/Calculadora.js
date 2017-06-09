@@ -9,8 +9,10 @@ Calculadora.prototype.soma = function() {
     return result;
 };
 
-Calculadora.prototype.divisao = function() {
-
+Calculadora.prototype.divisao = function(a, b) {
+    if (b === 0)
+        throw new TypeError("Nao eh possivel divisao por zero.");
+    return a / b;
 }
 
 module.exports = Calculadora;

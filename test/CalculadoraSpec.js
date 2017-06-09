@@ -24,5 +24,9 @@ describe("Class Calculadora", function() {
         it("should return 0 when passed 0 and 1", function() {
             expect(cal.divisao(0, 1)).to.equal(0);
         });
+
+        it("should return a error when passed 1 and 0", function() {
+            expect(() => { cal.divisao(1, 0) }).to.throw(TypeError, /zero/);
+        });
     })
 });
