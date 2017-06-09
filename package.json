@@ -1,0 +1,29 @@
+{
+    "name": "exemplo-tdd-mocha.js",
+    "version": "0.0.1",
+    "description": "É só um exemplo que quero mostrar.",
+    "main": "server.js",
+    "scripts": {
+        "test": "mocha -u bdd --watch --reporter dot"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ClausRT/Exemplo-de-TDD-com-Mocha.js.git"
+    },
+    "keywords": [
+        "teste;",
+        "tdd;",
+        "mocha;",
+        "node"
+    ],
+    "author": "Claus R Tessmann <clausrt@outlook.com>",
+    "license": "GPL-3.0",
+    "bugs": {
+        "url": "https://github.com/ClausRT/Exemplo-de-TDD-com-Mocha.js/issues"
+    },
+    "homepage": "https://github.com/ClausRT/Exemplo-de-TDD-com-Mocha.js#readme",
+    "devDependencies": {
+        "chai": "^4.0.2",
+        "mocha": "^3.4.2"
+    }
+}
